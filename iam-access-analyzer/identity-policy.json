@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RunInstance"
+            ],
+            "Resource": "arn:aws:ec2:*:*:instance/my-custom-instance"
+        }
+    ]
+}
